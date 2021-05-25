@@ -1,0 +1,24 @@
+.sobremi{
+    .sobremi-img{
+        height: 200px;
+        width: 200px;
+        border: solid rgb(63, 200, 224);
+        margin: 80px auto;
+     } 
+    
+     
+    .sobremi-img:hover{
+        border: solid rgb(55, 170, 190);
+    }
+}
+
+.sobremi__carousel{
+    .carousel-inner{
+        height: 70vh;
+    }
+    
+    .carousel-img{
+        height: 70vh;
+        object-fit: cover;
+    }
+}

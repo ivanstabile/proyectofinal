@@ -1,0 +1,56 @@
+.form__flex{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(247, 247, 247);
+    width: 50%;
+      input, select, option, textarea{
+            background: rgb(240, 240, 240);
+      }
+         label, input{
+            padding: 10px;
+            margin: 5px;
+         }
+            .check{
+               font-size: 20px;
+               margin-top: 10px;
+               padding: 5px;
+            }
+            select, option{
+               padding: 10px;
+            }
+         
+            textarea{
+               margin-top: 20px;
+            }
+            .buttons{
+               .btn-borrar{
+                  border: solid 1px red;
+                  color: $color-secundario;
+                  background: $color-primario;
+                  padding: 10px;
+                  border-radius: 20px;
+               }
+               
+               .btn-borrar:hover{
+                  background:red;
+                  color: $color-secundario;
+               }
+               
+               .btn-submit{
+                  border: solid 1px $color-terciario;
+                  color: $color-secundario;
+                  background: $color-primario;
+                  padding: 10px;
+                  border-radius: 20px;
+               }
+               
+               .btn-submit:hover{
+                  background: $color-terciario;
+                  color: $color-secundario;
+               }
+            }
+   }
+   
+
+

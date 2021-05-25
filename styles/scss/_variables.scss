@@ -1,0 +1,14 @@
+$color-primario: #040404;
+$color-secundario: rgb(236, 236, 236);
+$color-terciario: rgb(63, 200, 224);
+
+@mixin margin-box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+ @for $i from 2 through 4 {
+    .h#{$i} {
+        font-size:(80px / #{$i});
+    }
+}
