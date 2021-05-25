@@ -330,14 +330,14 @@ header{
  
  //Media queries
  @media screen and(max-width: 1200px){
-    .container-cards{
-    .card-fixed{
-        margin: 20px auto; 
-        width: 60%; 
-        .card-img-top{
-            object-fit: cover;
+        .container-cards{
+        .card-fixed{
+            margin: 20px auto; 
+            width: 60%; 
+            .card-img-top{
+                object-fit: cover;
+            }
         }
-    }
 }
 } 
 
@@ -498,3 +498,10 @@ header{
     }
 }
   
+@media screen and(max-width: 765px){
+    .container-cards{
+    .card-fixed{
+        width: 90%; 
+    }
+}
+} 

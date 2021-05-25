@@ -831,4 +831,10 @@ header a:hover {
     width: 100% !important;
   }
 }
+
+@media screen and (max-width: 765px) {
+  .container-cards .card-fixed {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
