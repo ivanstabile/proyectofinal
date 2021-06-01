@@ -338,6 +338,10 @@ a {
   color: white;
 }
 
+.section__flex {
+  margin: 100px auto;
+}
+
 header {
   position: fixed;
   z-index: 2;
@@ -700,20 +704,26 @@ header a:hover {
   }
 }
 
-@media (max-width: 990px) {
+@media screen and (max-width: 990px) {
   body {
     overflow-x: hidden;
   }
   .hero__flex .container__hero .hero-content {
     max-width: 350px;
-    margin: 25px 0 0 -35px;
+    margin: 80px 0 0 -40px;
   }
   .hero__flex .container__hero .hero-content h1 {
-    font-size: 40px;
+    font-size: 1.8rem;
     color: #ececec;
+    text-shadow: 0px 1px 9px black;
+    padding-right: 20px;
   }
   .hero__flex .container__hero .hero-content p {
     margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-shadow: 0px 1px 5px black;
+    padding-right: 55px;
   }
   .hero__flex .container__hero .hero-content .hero__btn {
     width: 50%;

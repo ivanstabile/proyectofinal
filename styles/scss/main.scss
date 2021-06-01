@@ -65,6 +65,10 @@ p{
      color: white;
  }
 
+ .section__flex{
+     margin: 100px auto;
+ }
+
 header{
      position: fixed;
      z-index: 2;
@@ -225,8 +229,7 @@ header{
      .row{
         margin-top: 80px;
     }
-    
-    .card-fixed{
+     .card-fixed{
         padding: 15px;
         border-radius: 20px;
         margin: 20px;
@@ -342,7 +345,7 @@ header{
 } 
 
 
- @media (max-width: 990px){
+ @media screen and(max-width: 990px){
 
     body{
         overflow-x: hidden;
@@ -351,14 +354,19 @@ header{
         .container__hero{
             .hero-content{
                 max-width: 350px;
-                margin: 25px 0 0 -35px;
+                margin: 80px 0 0 -40px;
                 h1{
-                    font-size: 40px;
+                    font-size: 1.8rem;
                     color: $color-secundario;
-                    
+                    text-shadow: 0px 1px 9px rgba(0, 0, 0, 1);
+                    padding-right: 20px;
                 }
                 p{
                     margin-bottom: 20px;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+                    padding-right: 55px;
                 }
                 .hero__btn{
                     width: 50%;
@@ -499,9 +507,9 @@ header{
 }
   
 @media screen and(max-width: 765px){
-    .container-cards{
-    .card-fixed{
-        width: 90%; 
-    }
-}
+        .container-cards{
+        .card-fixed{
+            width: 90%; 
+        }
+    } 
 } 
