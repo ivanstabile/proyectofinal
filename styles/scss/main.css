@@ -708,6 +708,11 @@ header a:hover {
   body {
     overflow-x: hidden;
   }
+  header .logo {
+    font-size: 15px;
+    width: 30px;
+    border-radius: 100px;
+  }
   .hero__flex .container__hero .hero-content {
     max-width: 350px;
     margin: 80px 0 0 -40px;
@@ -764,7 +769,7 @@ header a:hover {
     margin: 10px;
   }
   .servicios .container .row .col-md-12 h4 {
-    font-size: 18px;
+    font-size: 0.9rem;
   }
   .servicios .container .row .col-md-12 h4 .icon-principal {
     width: 25px;
